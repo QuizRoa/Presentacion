@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: violet;
+    
+}
+header img{
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.nombre{
+    text-shadow: 6px 6px 2px black;
+}
+h1{
+    padding: 10px;
+    background-color: blue;
+    margin-left: 300px;
+    margin-right: 300px;
+    color: wheat;
+    
+}
+h3{
+    background-color: brown;
+    padding: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    color: white;
+
+}
+.titulo::before{
+    content: "Título: ";
+    font-size: 20px;
+    color:black;
+}
+.especialidad::before{
+    content: "Especialidad: ";
+    font-size: 20px;
+    color:black;
+}
+.tecnologias::before{
+    content: "Tecnologías: ";
+    font-size: 20px;
+    color:black;
+}
+
+section{
+    background-color: aqua;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+section p{
+    text-align: justify;
+    margin: 20px;
+}
+a{
+    background-color: black;
+    padding: 2px;
+    border-radius: 10%;
+    text-decoration: none;
+    color: white;
+
+}
+
+a:hover{
+    background-color: blueviolet;
+    color: white;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: blue;
+}
+::-webkit-scrollbar-thumb{
+    background-color: blueviolet;
+}
+footer{
+    background-color: bisque;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+}
+
+
